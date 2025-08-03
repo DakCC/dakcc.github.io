@@ -1,0 +1,110 @@
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.content-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    display: flex;
+}
+
+.left{
+    width: 40%;
+    padding-right: 20px;
+    border: #000000 1px solid;
+    border-left: none;
+}
+
+.right{
+    width: 60%;
+    padding-right: 20px;
+    padding-left: 30px;
+    border: #000000 1px solid;
+    justify-items: flex-start;
+    border-left: none;
+    border-right: none;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 2.5;
+    color: #333333;
+}
+
+.nav {
+    border:solid 1px;
+    border-radius: 10px;
+    border-width: 2px;
+    color:black;
+    padding:3px 20px;
+    font-size:20px;
+    height: 45px;
+}
+
+.project-button {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.chapter-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333333;
+    text-align: center;
+    padding: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.corolla-front{
+    width: 300px;
+    height: 400px;
+    padding-right: 50px;
+}
+
+.corolla-back {
+    width: 300px;
+    height: 400px;
+    padding-left: 50px;
+}
+
+.tacoma-front {
+    width: 300px;
+    height: 400px;
+    padding-right: 50px;
+}
+
+.tacoma-back {
+    padding-left: 50px;
+}
+
+.i-think{
+    font-size: 2px;
+}
+
+.descriptions{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+    padding: 10px;
+}
