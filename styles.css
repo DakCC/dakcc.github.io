@@ -4,6 +4,10 @@
     color: #000000;
     margin-bottom: 10px;
     text-align: center;
+    padding-top: 10px;
+    position: center;
+    display:flexbox;
+    
 }
 .content-container {
     width: 80%;
@@ -12,6 +16,24 @@
     background-color: #f4f4f4;
     border-radius: 8px;
     display: flex;
+}
+
+.content-container-title {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.title-container {
+    width: 45%;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 20%;
 }
 
 .left{
@@ -176,6 +198,7 @@
     color:black;
 }
 
+
 #nav:hover {
     background-color:rgb(139, 139, 139);
     border: rgb(0, 0, 0) solid 3px;
@@ -184,11 +207,21 @@
     padding: 3px 20px;
 }
 
-.contact {
+.logo {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.contactme {
     color:black;
     font-size:20px;
     border: #000000 1px solid;
-    position: left;
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: right;
+    background-color: rgb(216, 216, 216);
+    border-style: dashed;
+    border-width: 3px;
 }
 
 .image-container {
