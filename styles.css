@@ -227,7 +227,7 @@
     padding: 5px 10px;
     float: right;
     background-color: rgb(216, 216, 216);
-    border-style: dashed;
+    border-style: double;
     border-width: 3px;
 }
 
