@@ -238,3 +238,18 @@
 .description {
     font-style: bold;
 }
+
+#ddbuttonselect {
+    border:red solid 3px;
+    background-color: red;
+}
+
+#pbuttonselect {
+    border: rgb(0, 255, 55) solid 3px;
+    background-color: rgb(0,255,55);
+}
+
+#bbuttonselect {
+    border:rgb(0, 94, 255) solid 3px;
+    background-color: rgb(0,94,255);
+}
