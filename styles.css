@@ -18,6 +18,13 @@
     display: flex;
 }
 
+.content-container2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
 .content-container-title {
     width: 100%;
     margin: 0 auto;
