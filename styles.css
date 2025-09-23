@@ -253,3 +253,12 @@
     border:rgb(0, 94, 255) solid 3px;
     background-color: rgb(0,94,255);
 }
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
