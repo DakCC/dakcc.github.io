@@ -1,169 +1,54 @@
+.contact{
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 5px 10px;
+    background-color: rgb(209, 209, 209);
+}
+
+.contact:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 5px 10px;
+    background-color: rgb(223, 223, 223);
+}
+
 .title {
     font-size: 50px;
     font-weight: bold;
     color: #000000;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-align: center;
-    padding-top: 10px;
-    position: center;
-    display:flexbox;
-    
-}
-.content-container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    display: flex;
-}
-
-.content-container2 {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-}
-
-.content-container-title {
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 8px;
-    display: flex;
-}
-
-.title-container {
-    width: 45%;
-    background-color: #f4f4f4;
+    padding: 10px;
+    background-color: rgb(162, 162, 162);
     border-radius: 20px;
-}
-
-.logo {
-    width: 20%;
-}
-
-.left{
-    width: 40%;
-    padding-right: 20px;
-    border: #000000 3px solid;
-    border-left: none;
-}
-
-.right{
     width: 60%;
-    padding-right: 20px;
-    padding-left: 30px;
-    border: #000000 3px solid;
-    justify-items: flex-start;
-    border-left: none;
-    border-right: none;
 }
 
-.description {
+.aboutme {
     font-size: 20px;
-    color: #333333;
+    width: 60%;
 }
 
-.nav {
-    border:solid 1px;
-    border-radius: 10px;
-    border-width: 2px;
-    color:black;
-    padding:3px 20px;
-    font-size:20px;
-    height: 45px;
-}
-
-.project-button {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.chapter-title{
-    font-size: 40px;
-    font-weight: bold;
-    color: #000000;
-    margin-bottom: 10px;
+td {
+    padding: 5px;
+    border: 1px solid #000000;
     text-align: center;
-    padding-top: 20px;
 }
 
-.description {
-    font-size: 20px;
-    line-height: 1.5;
-    color: #333333;
+th {
+    background-color: #ff4d00;
+    padding: 5px;
     text-align: center;
-    padding: 10px;
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.corolla-front .corrola-back{
-    width: 300px;
-    height: 400px;
-    padding-right: 50px;
-}
-
-.corolla-back {
-    width: 300px;
-    height: 400px;
-    padding-left: 50px;
-}
-
-.tacoma-front {
-    width: 300px;
-    height: 400px;
-    padding-right: 50px;
-}
-
-.tacoma-back {
-    padding-left: 50px;
-}
-
-.i-think{
-    font-size: 2px;
-}
-
-.descriptions{
-    font-size: 15px;
-    line-height: 1.5;
-    color: #000000;
-    padding: 10px;
-}
-
-.table1 {
-    color:black;
-    border-top: red 5px solid;
-    width: auto;
-    
-}
-
-.table2 {
-    color:black;
-    border-top: rgb(0,255,55) 5px solid;
-    width: auto;
-    
-}
-
-.table3 {
-    color:black;
-    border-top: rgb(0,94,255) 5px solid;
-    width: auto;
-    
 }
 
 .navbutton{
     border-radius: 10px;
     border-width: 3px;
     color:black;
-    padding:3px 20px;
-    font-size:20px;
+    padding:3px 15px;
+    font-size:15px;
     height: 45px;
 }
 
@@ -173,7 +58,6 @@
 
 #ddbutton:hover {
     background-color: red;
-    border: black solid 3px;
 }
 
 #pbutton {
@@ -182,7 +66,6 @@
 
 #pbutton:hover {
     background-color: rgb(0,255,55);
-    border: black solid 3px;
 }
 
 #bbutton {
@@ -191,14 +74,13 @@
 
 #bbutton:hover {
     background-color:rgba(0, 94, 255, 0.658);
-    border: black solid 3px;
 }
 
 #nav {
     border:rgb(0, 0, 0) solid 3px;
     text-decoration: none;
     padding: 3px 20px;
-    font-size:25px;
+    font-size:15px;
     height: 45px;
     border-radius: 10px;
     border-width: 3px;
@@ -208,69 +90,17 @@
 
 #nav:hover {
     background-color:rgb(139, 139, 139);
-    border: rgb(0, 0, 0) solid 3px;
     color: rgb(0, 0, 0);
     cursor: help;
     padding: 3px 20px;
 }
 
-.logo {
-    padding-top: 40px;
-    padding-left: 80px;
-}
-
-.contactme {
-    color:black;
-    font-size:20px;
-    border: #000000 1px solid;
-    border-radius: 5px;
-    padding: 5px 10px;
-    float: right;
-    background-color: rgb(216, 216, 216);
-    border-style: double;
-    border-width: 3px;
-}
-
-.contactme:hover {
-    color:black;
-    font-size:20px;
-    border: #000000 1px solid;
-    border-radius: 5px;
-    padding: 5px 10px;
-    float: right;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-width: 3px;
-}
-
-.image-container {
-    background-color: #f4f4f4;
-}
-
 .description {
-    font-style: bold;
+    font-size: 25px;
+    font-weight: bold;
+    width: 70%;
 }
 
-#ddbuttonselect {
-    border:red solid 3px;
-    background-color: red;
-}
-
-#pbuttonselect {
-    border: rgb(0, 255, 55) solid 3px;
-    background-color: rgb(0,255,55);
-}
-
-#bbuttonselect {
-    border:rgb(0, 94, 255) solid 3px;
-    background-color: rgb(0,94,255);
-}
-
-.hide-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-
-.hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and Opera */
+.i-think{
+    font-size: 2px;
 }
