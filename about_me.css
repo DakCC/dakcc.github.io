@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    background-color: rgb(10, 30, 55)
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;   /* centers the greet */
+    background-color: rgb(10, 30, 55);
+    padding: 35px 40px;
+    font-family: "Lato", sans-serif;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    position: relative;
+}
+
+.greet {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    color: #FF6B00;
+    text-align: center;
+    font-size: 60px;
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+}
+
+.logo img {
+    height: 150px;
+    width: auto;
+    display: block;
+}
+
+.product_container{
+    font-family: "Michroma", sans-serif;
+    margin: 10px;
+    background-color: black;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product{
+    font-family: "Michroma", sans-serif;
+    font-size: 35px;
+    display: flex;
+    background-color: black;
+    color: white;
+    border: #FF6B00 4px solid;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 5px 5px;
+    min-height: 200px;
+    height: 70%;
+    flex-direction: column;
+}
+
+.chapter_container{
+    font-family: "Michroma", sans-serif;
+    font-size: 25px;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+    min-height: 80vh;
+    border: #FF6B00 4px solid;
+    border-radius: 40px;
+}

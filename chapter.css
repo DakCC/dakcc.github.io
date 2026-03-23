@@ -1,0 +1,178 @@
+body{
+    margin:0;
+    background-color: rgb(10, 30, 55)
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;   /* centers the greet */
+    background-color: rgb(10, 30, 55);
+    padding: 35px 40px;
+    font-family: "Lato", sans-serif;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    position: relative;
+}
+
+.title {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    color: #FF6B00;
+    text-align: center;
+    font-size: 60px;
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+}
+
+.logo img {
+    height: 150px;
+    width: auto;
+    display: block;
+}
+
+.overall_container{
+    margin: 10px;
+    min-height: 80vh;
+    font-family: "Michroma", sans-serif;
+    font-size: 25px;
+    background-color: black;
+    color:white;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+    min-height: 80vh;
+    border: #FF6B00 5px solid;
+    border-radius: 40px;
+}
+
+.nav_container{
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.back_button, .next_button{
+    font-size: 25px;
+    background-color: #FF6B00;
+    padding: 8px;
+    margin: 1px;
+    text-align:center;
+    color:black;
+}
+
+.back_button{
+    border-radius: 20px 0px 0px 20px;
+    text-decoration: none;
+}
+
+.next_button{
+    border-radius: 0px 20px 20px 0px;
+    text-decoration: none;
+}
+
+.back_button:hover{
+    background-color: #be4f00;
+}
+
+.next_button:hover{
+    background-color: #be4f00;
+}
+
+.display_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    border: #ffffff 4px solid;
+    border-radius: 40px;
+    min-height: fit-content;
+    padding:50px;
+    margin:10px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    max-height: 550px;
+    width:auto;
+}
+
+.description{
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 16px 16px;
+        gap: 10px;
+        position: sticky;
+    }
+
+    .logo {
+        position: static;
+        margin-bottom: 4px;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+
+    .title {
+        font-size: clamp(28px, 8vw, 48px);
+        text-align: center;
+    }
+
+    .overall_container {
+        margin: 8px;
+        padding: 24px 16px;
+        border-radius: 20px;
+        font-size: 18px;
+        border-width: 3px;
+    }
+
+    /* Nav buttons stay side by side but fill width */
+    .nav_container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .back_button, .next_button {
+        flex: 1;
+        font-size: 18px;
+        padding: 10px 8px;
+    }
+
+    /* Stack image above description */
+    .display_container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 16px;
+        margin: 8px 0;
+        border-radius: 20px;
+        border-width: 3px;
+    }
+
+    .image img {
+        max-height: 300px;
+        max-width: 100%;
+        width: auto;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
