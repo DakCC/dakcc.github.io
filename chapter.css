@@ -56,11 +56,14 @@ body{
     flex-direction: column;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    position: sticky;
+    top: 0;
+    z-index: 1000;  
 }
 
 .back_button, .next_button{
     font-size: 25px;
-    background-color: #FF6B00;
+    background-color: #ff6a00d9;
     padding: 8px;
     margin: 1px;
     text-align:center;
@@ -118,7 +121,6 @@ body{
         align-items: center;
         padding: 20px 16px 16px;
         gap: 10px;
-        position: sticky;
     }
 
     .logo {
@@ -147,6 +149,9 @@ body{
     .nav_container {
         display: flex;
         flex-direction: row;
+        position: sticky;
+        top: 0;
+        z-index: 1000;  
     }
 
     .back_button, .next_button {
