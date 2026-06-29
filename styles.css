@@ -40,6 +40,17 @@ body{
     display: block;
 }
 
+.youtube {
+    position: absolute;
+    right: 40px;
+}
+
+.youtube img {
+    height: 80px;
+    width: auto;
+    border-radius: 20px;
+}
+
 .product_container{
     font-family: "Michroma", sans-serif;
     margin: 10px;
@@ -129,6 +140,16 @@ body{
 
     .logo img {
         height: 80px;
+    }
+
+    .youtube {
+        position: static;
+        margin-bottom: 4px;
+    }
+
+    .youtube img {
+        height:50px;
+        border-radius: 10px;
     }
 
     .greet {
