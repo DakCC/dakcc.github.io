@@ -37,6 +37,17 @@ body{
     display: block;
 }
 
+.youtube {
+    position: absolute;
+    right: 40px;
+}
+
+.youtube img {
+    height: 80px;
+    width: auto;
+    border-radius: 20px;
+}
+
 .overall_container{
     margin: 10px;
     min-height: 80vh;
@@ -132,6 +143,16 @@ body{
         height: 80px;
     }
 
+    .youtube {
+        position: static;
+        margin-bottom: 4px;
+    }
+
+    .youtube img {
+        height:50px;
+        border-radius: 10px;
+    }
+    
     .title {
         font-size: clamp(28px, 8vw, 48px);
         text-align: center;
