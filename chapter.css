@@ -48,6 +48,10 @@ body{
     border-radius: 20px;
 }
 
+.youtube img:hover {
+    opacity: 0.8;
+}
+
 .overall_container{
     margin: 10px;
     min-height: 80vh;
